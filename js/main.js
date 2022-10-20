@@ -13,3 +13,9 @@ if(age<=18){
 }else if(age>=65){
     price = price - ((price*40)/100);
 }
+
+//5 stampo prezzo biglietto con eventuale scontistica applicata
+console.log(`il prezzo del tuo biglietto è:`, price.toFixed (2), `€`);
+
+//6 scrivo sulla pagina il prezzo del biglietto
+document.getElementById("price-ticket").innerHTML= price.toFixed (2);
