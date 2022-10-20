@@ -4,3 +4,6 @@ const kmToGo = Number(prompt("inserisci i km che vorrai percorrere"));
 //2 chiedi all'utente l'età del passeggero
 const age = Number(prompt("inserisci la tua età"));
 
+//3 crea una variabile in base al prezzo al km (pari a 0.21€)
+let price = kmToGo * 0.21;
+
